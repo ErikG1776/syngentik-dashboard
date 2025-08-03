@@ -1,0 +1,47 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+  padding: 4em;
+  background: #f9f9f9;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.75em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1.1em;
+  color: #333;
+  line-height: 1.6;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 2em;
+  padding: 1em 2em;
+  background: black;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.cta:hover {
+  background: #222;
+}
+
+.footer {
+  margin-top: 4em;
+  font-size: 0.9em;
+  color: #888;
+}
+
+.footer a {
+  color: #444;
+  text-decoration: none;
+}
