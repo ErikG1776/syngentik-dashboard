@@ -7,10 +7,10 @@ import './home.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/">
     <Routes>
-      <Route path="/" element={<TrustDashboard />} />
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/dashboard" element={<TrustDashboard />} />
     </Routes>
   </BrowserRouter>
 );
