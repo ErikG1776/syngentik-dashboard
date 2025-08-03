@@ -11,7 +11,7 @@ const Home = () => {
         Recursive. Adaptive. Truth-aligned.
       </p>
 
-      <a className="cta" href="/dashboard">
+      <a className="cta" href="/">
         Launch the Live Trust Dashboard
       </a>
 
